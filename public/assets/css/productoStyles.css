@@ -1,0 +1,23 @@
+#productos-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+    .card-product{
+        max-width: 240px;
+        text-align: center;
+        background-color: var(--verde-suave);
+        padding: 10px;
+        box-shadow: 0 0 5px rgb(0, 0, 0, 0.130) ;
+        transition: 200ms;
+    }
+    .card-product:hover{
+        translate: 0 -10px; 
+        box-shadow: 0 10px 5px rgb(0, 0, 0, 0.130) ;
+    }
+    .card-product img{
+        width: 100%;
+        aspect-ratio: 0.8;
+    }

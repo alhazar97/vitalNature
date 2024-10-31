@@ -1,0 +1,41 @@
+ main section {
+  display: flex;
+  align-items: center; 
+  height: 68vh; /* height: 70vh;  */
+  background-color: var(--verde-suave);
+}
+
+.left-content {
+  padding: 20px; /* media queries padding: -70; tambien las letras */
+}
+
+
+.left-content .highlight {
+  color: var(--verde-oscuro);
+  font-weight: bold;
+}
+
+
+.left-content .email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;  
+}
+
+.left-content input {
+  padding: 5px 10px;
+  font-size: 1rem;
+  border: 1px solid var(--verde-oscuro);
+  border-radius: 5px; 
+}
+
+/*Right content (image) */
+.right-content {
+  margin-left:auto ;
+}
+
+.right-content img {
+  height: 100%;
+  margin-bottom: auto; 
+}   

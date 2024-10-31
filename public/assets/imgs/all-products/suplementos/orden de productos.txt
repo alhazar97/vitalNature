@@ -1,0 +1,14 @@
+orden de productos
+
+1: omega-3
+2: aguajeAlov-power
+3: aguajeHinojo
+4: aguajeMaca-y-Fenogreco
+5: aguajePlus
+6: calcioCitrato-magnesioZinc-500tab
+7: calcio-suplementoX-700gr
+8: citratoMagnesio-capsulas
+9: citratoPotasio-capsulas
+: gumies vitamina C-Zinc
+: gummies-vinagre-de-manzanaVerde
+: calcio suplemento *700gr

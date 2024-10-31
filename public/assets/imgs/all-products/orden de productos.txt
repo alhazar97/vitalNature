@@ -1,0 +1,31 @@
+orden de productos
+
+1: omega-3
+2: aguajeAlov-power
+3: aguajeHinojo
+4: aguajeMaca-y-Fenogreco
+5: aguajePlus
+6: calcioCitrato-magnesioZinc-500tab
+7: calcio-suplementoX-700gr
+8: citratoMagnesio-capsulas
+9: citratoPotasio-capsulas
+10:citrato-y-clorudo-de-magnesio
+11:creatinaMonohidrato-100Pura
+12:fibra-de-linaza-doradaVegana
+13:gummies-vinagre-de-manzanaVerde
+14:gumies vitamina C-Zinc
+15:marinoColageno-hidrolizadoLiquido
+16:proteinas-zinc-500gr
+17:qb-aguaje-fenogreco
+18:suplemento-multivitaminico-hombres-Emen
+19:teMatcha-premiumSemilla-japonesa
+20:vita6-cerebrina
+
+Anchura 757 pixels
+Altura 1136 pixels
+
+Anchura 20 centimetros
+Altura 30 centimetros
+resolucion 37,867 pixeles/centimetro
+
+
