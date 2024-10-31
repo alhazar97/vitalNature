@@ -1,41 +1,62 @@
- main section {
+main section {
   display: flex;
+  flex-direction: column; /* En dispositivos móviles, el 
+
+contenido se apilará en lugar de estar uno al lado del 
+
+otro */
   align-items: center; 
-  height: 68vh; /* height: 70vh;  */
+  height: 77vh; /* La altura de 70vh se ajusta 
+
+automáticamente a la pantalla */
   background-color: var(--verde-suave);
 }
 
 .left-content {
-  padding: 20px; /* media queries padding: -70; tambien las letras */
-}
+  flex: 1;
+  padding: 5vw; /* Usa vw para que el padding responda al 
 
+tamaño de la pantalla */
+  text-align: center; /* Centra el texto en móviles */
+}
 
 .left-content .highlight {
   color: var(--verde-oscuro);
   font-weight: bold;
 }
 
-
 .left-content .email {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;  
+  gap: 2vh; /* Ajuste automático del espacio en función 
+
+del tamaño de la pantalla */
 }
 
 .left-content input {
-  padding: 5px 10px;
-  font-size: 1rem;
+  padding: 1vh 2vw; /* Tamaño adaptable en altura y 
+
+anchura */
   border: 1px solid var(--verde-oscuro);
-  border-radius: 5px; 
+  border-radius: 5px;
 }
 
-/*Right content (image) */
 .right-content {
-  margin-left:auto ;
+  flex: 1;
+  padding-left: 10vw; /* Margen ajustable automáticamente 
+
+en función de la pantalla */
+  display: flex;
+  justify-content: center;
 }
 
 .right-content img {
-  height: 100%;
-  margin-bottom: auto; 
-}   
+  max-width: 80vw; /* Imagen adaptada al ancho de la 
+
+pantalla */
+  height: auto; /* La altura se adapta automáticamente al 
+
+ancho */
+  margin-bottom: auto;
+}
