@@ -1,62 +1,91 @@
 main section {
   display: flex;
-  flex-direction: column; /* En dispositivos móviles, el 
+  flex-direction: column; /* Coloca los elementos uno debajo del otro */
+  justify-content: space-between; /* Espacio entre los elementos */
+  background-color: var(--verde-suave);
+  min-height: 77vh; /* Asegúrate de que el contenedor tenga altura suficiente */
+}
 
-contenido se apilará en lugar de estar uno al lado del 
+.left-content {
+  text-align: center;
+}
 
-otro */
+.right-content {
+  padding-left: 7vh;
+ /* s */ /* Empuja la imagen hacia el fondo */
+}
+
+.right-content img {
+  max-width: 80vw;
+  height: auto;
+}
+
+/* Media query para pantallas más grandes (PC) */
+@media (min-width: 768px) {
+  main section {
+    flex-direction: row; /* Cambia a filas en pantalla más amplia */
+    align-items: center; /* Centra verticalmente en PC */
+    height: 68vh; /* Altura específica para PC */
+  }
+
+  .left-content {
+    padding: 20px; /* Ajusta el padding para mayor espacio en PC */
+    text-align: left; /* Alineación de texto a la izquierda en PC */
+  }
+
+  .right-content {
+    margin-left: auto;
+    padding-left: 10vw;
+  }
+
+  .right-content img {
+    max-width: 100%; /* La imagen ocupa el espacio completo */
+    height: auto; /* Altura automática */
+  }
+}
+
+/* main section {
+  display: flex;
+  justify-content: space-between; 
   align-items: center; 
-  height: 77vh; /* La altura de 70vh se ajusta 
-
-automáticamente a la pantalla */
+  height: calc(100vh - 228px); 
   background-color: var(--verde-suave);
 }
 
 .left-content {
-  flex: 1;
-  padding: 5vw; /* Usa vw para que el padding responda al 
-
-tamaño de la pantalla */
-  text-align: center; /* Centra el texto en móviles */
+  flex: 1;  
+  padding: 20px; 
 }
+
 
 .left-content .highlight {
   color: var(--verde-oscuro);
   font-weight: bold;
 }
 
+
 .left-content .email {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2vh; /* Ajuste automático del espacio en función 
-
-del tamaño de la pantalla */
+  gap: 10px;  
 }
 
 .left-content input {
-  padding: 1vh 2vw; /* Tamaño adaptable en altura y 
-
-anchura */
+  padding: 10px;
+  font-size: 1.6rem;
   border: 1px solid var(--verde-oscuro);
   border-radius: 5px;
 }
 
 .right-content {
-  flex: 1;
-  padding-left: 10vw; /* Margen ajustable automáticamente 
+  flex: 1; 
+  padding-left: 20%;
 
-en función de la pantalla */
-  display: flex;
-  justify-content: center;
 }
 
 .right-content img {
-  max-width: 80vw; /* Imagen adaptada al ancho de la 
-
-pantalla */
-  height: auto; /* La altura se adapta automáticamente al 
-
-ancho */
-  margin-bottom: auto;
-}
+  max-width: 100%; 
+  height: 100%;
+  margin-bottom: auto; 
+}    */

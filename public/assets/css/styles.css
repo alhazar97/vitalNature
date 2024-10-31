@@ -37,13 +37,16 @@ button {
 button:hover {
   background-color: var(--negro);
 }
-h1 {
-  /* font-size: 4rem; */
-  font-weight: lighter;
+/* h1 {
+   font-size: 4rem; 
+} */
+.highlight {
+  color: var(--verde-oscuro);
+  font-weight: bold;
 }
 h2 {
   /* font-size: 2rem; */
-  font-weight: lighter;
+  /* font-weight: lighter; */
   color: var(--blanco);
   animation: scroll-text 20s linear infinite;   /* Animación de desplazamiento   */
   display: inline-block;  /* Ocupa solo el ancho del contenido */
@@ -58,8 +61,10 @@ h3, p {
   font-size: 1.5rem;
 } */
 /*Header y nav*/
+
 header nav{
     display: flex;           
+    justify-content: center;
     align-items: center;
     box-shadow: 0 4px 8px rgb(0, 0, 0, 0.104);
     /* margin-bottom: 10px; */
@@ -76,7 +81,7 @@ header nav{
   }
 
   #logo {
-    height: 17vh;
+    height: 15vh;
     margin-right: auto;
   }
   
@@ -87,9 +92,8 @@ header nav{
 .nav-links{
     display: flex;      
     list-style: none;          
-    gap: 30px;                 
+    gap: 5px;                 
     /* font-size: 1rem; */
-    margin:auto;
   }
 
   .category-links {
@@ -128,3 +132,4 @@ footer{
       transform: translateX(-50vw);  /* Mueve el texto hacia la izquierda */
   }
 }
+
