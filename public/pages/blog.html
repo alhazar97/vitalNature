@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalNature - Blog</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+</head>
+<body>
+    <!-- Navegación del Blog -->
+    <header class="nav-blog">
+        <nav>
+            <a href="./index.html">
+                <img src="/assets/imgs/logo.png" alt="Logo" id="logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#plantas-y-hierbas">Plantas y Hierbas</a></li>
+                <li><a href="#frutas-y-verduras">Frutas y Verduras</a></li>
+                <li><a href="#suplementos-y-vitaminas">Suplementos y Vitaminas</a></li>
+                <li><a href="#deporte-y-vida-activa">Deporte y Mente Activa</a></li>
+                <!-- Más enlaces a categorías -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contenido del Blog Organizado por Categorías -->
+        <section id="plantas-y-hierbas">
+            <h2>Plantas y Hierbas</h2>
+            <div class="articles-list">
+                <a href="./articulos/curcuma.html" class="article-link">Cúrcuma: Propiedades y Beneficios</a>
+                <a href="./articulos/jengibre.html" class="article-link">Jengibre: Mejorando la Digestión</a>
+                <!-- Otros artículos de esta categoría -->
+            </div>
+        </section>
+        
+        <!-- Más secciones para categorías adicionales -->
+
+    </main>
+
+    <script>
+        // Animación de entrada con GSAP para las secciones
+        gsap.from(".article-link", { opacity: 0, y: 20, duration: 0.5, stagger: 0.2 });
+    </script>
+</body>
+</html>

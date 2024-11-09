@@ -3,16 +3,19 @@ main section {
   flex-direction: column; /* Coloca los elementos uno debajo del otro */
   justify-content: space-between; /* Espacio entre los elementos */
   background-color: var(--verde-suave);
-  min-height: 77vh; /* Asegúrate de que el contenedor tenga altura suficiente */
+  height: 77vh; /* 77Asegúrate de que el contenedor tenga altura suficiente */
 }
 
 .left-content {
+  text-align: center;
+  margin-top: 50px;
+}
+.left-content .email{
   text-align: center;
 }
 
 .right-content {
   padding-left: 7vh;
- /* s */ /* Empuja la imagen hacia el fondo */
 }
 
 .right-content img {
@@ -25,22 +28,12 @@ main section {
   main section {
     flex-direction: row; /* Cambia a filas en pantalla más amplia */
     align-items: center; /* Centra verticalmente en PC */
-    height: 68vh; /* Altura específica para PC */
+    height: calc(100vh - 230px);
   }
 
   .left-content {
     padding: 20px; /* Ajusta el padding para mayor espacio en PC */
     text-align: left; /* Alineación de texto a la izquierda en PC */
-  }
-
-  .right-content {
-    margin-left: auto;
-    padding-left: 10vw;
-  }
-
-  .right-content img {
-    max-width: 100%; /* La imagen ocupa el espacio completo */
-    height: auto; /* Altura automática */
   }
 }
 
@@ -51,41 +44,3 @@ main section {
   height: calc(100vh - 228px); 
   background-color: var(--verde-suave);
 }
-
-.left-content {
-  flex: 1;  
-  padding: 20px; 
-}
-
-
-.left-content .highlight {
-  color: var(--verde-oscuro);
-  font-weight: bold;
-}
-
-
-.left-content .email {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;  
-}
-
-.left-content input {
-  padding: 10px;
-  font-size: 1.6rem;
-  border: 1px solid var(--verde-oscuro);
-  border-radius: 5px;
-}
-
-.right-content {
-  flex: 1; 
-  padding-left: 20%;
-
-}
-
-.right-content img {
-  max-width: 100%; 
-  height: 100%;
-  margin-bottom: auto; 
-}    */

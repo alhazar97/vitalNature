@@ -1,0 +1,21 @@
+#productos-container{
+    width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+.card-product{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 3px;
+}
+.card-product img{
+    height: 130px;
+    aspect-ratio: 0.8;
+}
+.card-product h3{
+    width: 130px;
+}
+#total{
+    text-align: center;
+}

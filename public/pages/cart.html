@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/cart.css">
     <title>vitalNature(cart)</title>
-    <script src="/assets/js/cards.js" defer></script>
+ 
+    <script src="/assets/js/cart.js" defer></script>
+    <script src="/assets/js/cartServices.js" defer></script>
 </head>
 <body>
     <header>
@@ -23,12 +26,20 @@
                         </ul>
                     </li>
                     <li><a href="#contacto">Contacto</a></li>
-                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="./blog">Blog</a></li>
                     <li><a href="./cart.html" id="cart"><img src="/assets/icon/shopping-cart.png" alt=""><span id="cuenta-carrito">0</span></a></li>
                 </ul>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <section id="productos-container"></section>
+        <section id="total">
+            <p>Total unidades: <span id="units"></span></p>
+            <p>Total precio: $<span id="price"></span></p>
+            <button disabled>Comprar</button>
+            <button disabled>Reiniciar carrito</button>
+        </section>
+    </main>
     <footer>
         <h2>
             Nutrición - Amor - Deporte - Salud - Vida - Apoyo - Éxito 
