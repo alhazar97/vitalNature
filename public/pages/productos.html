@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="/assets/css/productoStyles.css">
     <title>vitalNature(productos)</title>
     <script src="/assets/js/vitaminas.js"></script>
-    <script src="/assets/js/search.js" defer></script>
     <script src="/assets/js/cards.js" defer></script>
     <script src="/assets/js/cartServices.js" defer></script>
     <script src="https://kit.fontawesome.com/d3c96a5ca6.js" crossorigin="anonymous"></script>
@@ -33,25 +32,12 @@
                     <li><a href="./blog.html">Blog</a></li>
                     <li><a href="./cart.html" id="cart"><img src="/assets/icon/shopping-cart.png" alt=""><span id="cuenta-carrito">0</span></a></li>
                     <li><a><i class="fa-solid fa-magnifying-glass" id="icon-search"></i></a></li>
-                </ul>
-                
-                
+                </ul>      
         </nav>
     </header>
-
         <input type="text" name="" id="inputSearch" placeholder="¿Que deseas buscar?">
-
-        <ul id="box-search">
-            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>aguaje</a></li>
-            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>fenogreco</a></li>
-            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>gummies</a></li>
-            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>creatina</a></li>
-            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>calcio</a></li>
-            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>omega 3</a></li>
-        </ul>
-
-    <div id="cover-ctn-search"></div>
-
+        <p id="noResults" class="no-results">No se encontraron resultados.</p>
+        <div id="cover-ctn-search"></div>
     <main>
         <section id="productos-container">
         </section>

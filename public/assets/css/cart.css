@@ -1,12 +1,12 @@
 #productos-container{
-    width: 400px;
+    width: 410px;
     margin: auto;
     overflow: hidden;
 }
 .card-product{
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     margin-top: 3px;
 }
 .card-product img{
@@ -16,6 +16,9 @@
 .card-product h3{
     width: 130px;
 }
-#total{
+.card-product div{
+    display: inline;
+}
+#total, #carrito-hidden{
     text-align: center;
 }
